@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.DuplicatesDetectorPlugin", "ServiceBus.DuplicatesDetectorPlugin\ServiceBus.DuplicatesDetectorPlugin.csproj", "{4E53AB04-DD35-49C3-8890-8AE9B548C942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{F440C842-34BC-4FA9-801C-E3444B438528}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		ServiceBus.DeduplicatorPlugin.sln.DotSettings = ServiceBus.DeduplicatorPlugin.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E53AB04-DD35-49C3-8890-8AE9B548C942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E53AB04-DD35-49C3-8890-8AE9B548C942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E53AB04-DD35-49C3-8890-8AE9B548C942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E53AB04-DD35-49C3-8890-8AE9B548C942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4B7CCD-DE54-4E20-8F97-0BB8CB772586}
+	EndGlobalSection
+EndGlobal
